@@ -3,7 +3,8 @@ import {
   Form,
   Input,
   Icon,
-  Checkbox
+  Checkbox,
+  Card
 } from 'ant-design-vue';
 import Vue from 'vue'
 Vue.component(Button);
@@ -13,5 +14,6 @@ Vue.component(Form);
 Vue.use(Input);
 Vue.use(Icon);
 Vue.use(Checkbox);
+Vue.use(Card);
 
 
